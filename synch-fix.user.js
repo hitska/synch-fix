@@ -50,4 +50,10 @@ function fixContent() {
 fixContent()
 
 // Просто чиним всё по таймеру
-setInterval(function() {fixContent()}, 5000);
+var lastLength = 0;
+setInterval(function() {
+  if (document.body.innerHTML.length > lastLength) {
+    lastLength = document.body.innerHTML.length
+    fixContent()
+  }
+}, 2000);
