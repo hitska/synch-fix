@@ -1,0 +1,44 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2022-04-24T18:54:58.389Z",
+    "redirects": [
+        {
+            "description": "syn-ch.com.ua",
+            "exampleUrl": "https://cdn.syn-ch.com.ua/src/165/04/48/1650448063-e6e36.jpg",
+            "exampleResult": "https://cdn.syn-ch.ru/src/165/04/48/1650448063-e6e36.jpg",
+            "error": null,
+            "includePattern": "http*://cdn.syn-ch.com.ua/*",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "http$1://cdn.syn-ch.ru/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "image",
+                "imageset"
+            ]
+        },
+        {
+            "description": "syn-ch.org",
+            "exampleUrl": "http://cdn.syn-ch.org/src/165/04/48/1650448063-e6e36.jpg",
+            "exampleResult": "http://cdn.syn-ch.ru/src/165/04/48/1650448063-e6e36.jpg",
+            "error": null,
+            "includePattern": "http*://cdn.syn-ch.org/*",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "http$1://cdn.syn-ch.ru/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "image",
+                "imageset"
+            ]
+        }
+    ]
+}
